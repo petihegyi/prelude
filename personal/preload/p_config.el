@@ -20,5 +20,3 @@
                     :height 110
                     :weight 'normal
                     :width 'normal)
-
-
