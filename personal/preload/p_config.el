@@ -20,3 +20,8 @@
                     :height 110
                     :weight 'normal
                     :width 'normal)
+
+;; define connection to ELTE's pandora
+(defun connect-pandora ()
+  (interactive)
+  (dired "/ssh:immsrb@pandora.inf.elte.hu:/afs/inf.elte.hu/user/i/im/immsrb"))
